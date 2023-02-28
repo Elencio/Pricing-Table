@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,700&display=swap');
+
+
+:root {
+  --yellow: #ffcc29;
+  --blue: #1d539e;
+  --gray: #828799;
+  --page-background: #E5E5E5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  height: 900px;
+  background-color: var(--page-background);
+  margin:  auto;
+}
+
+.container-1 {
+   background-color: var(--blue);
+   width: 1440px;
+   height: 450px;
+}
+
+.context {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  top: 100px;
+}
+
+.context span {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #FFFFFF;
+}
+
+.context p {
+  width: 490px;
+  height: 50px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF
+}
+
+.pricing-table {
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+.pricing-table .free, .basico, .profissional {
+  position: relative;
+  border: 1px solid #E5E5E5;
+  width: 355px;
+  height: 470px;
+  margin: 0 20px;
+  top: -140px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+  header {
+    display: flex;
+  }
+header p { 
+  width: 355px;
+  height: 76px;  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1E2338;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border-radius-top: 10px;
+} 
+.basico {
+  transform: scale(1.1);
+}
+.basico header {
+  border-radius: 10px 10px 0px 0px;
+  background-color: var(--yellow);
+}
+
+header span {
+  position: relative;
+  width: 80px;
+  height: 28px;
+  border-radius: 40%;
+  top: 26px;
+  left: -60px;
+  padding: 5px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: var(--blue);
+}
+ .description p{       
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #828799;
+ }
+
+
+ .price p {
+   position: relative;
+   width: 315px;
+   top: 20px;
+   left: 20px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25px;
+   /* identical to box height */
+   
+   
+   color: #828799;
+ }
+
+ .price span {   
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 30px;
+color: #1E2338;
+ }
+ .price b {
+  font-family: 'Open Sans';
+  color: #1E2338;
+ }
+
+
+.pricing-table .description p {
+  width: 315px;
+  position: relative;
+  top: 40px;
+  left: 20px;
+}
+
+
+
+.pricing-table ul {
+  position: relative;
+  width: 294px;
+  height: 78px;
+  border-top: 1px solid #E5E5E5;
+  top: 60px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+
+}
+.pricing-table li {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  color: #828799;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+ button {
+position: relative;
+width: 296px;
+height: 49px;
+left: 30px;
+top: 160px;
+border: 1px solid var(--blue);
+border-radius: 10px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.basico  button {
+     background-color: var(--blue);
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 27px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #FFFFFF;
+}
+
+.free button {
+       
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+text-transform: uppercase;
+color: #1D539E;
+}
+
+.profissional button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1D539E;
+}
+
+
